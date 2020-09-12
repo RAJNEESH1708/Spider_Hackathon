@@ -10,7 +10,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:open_file/open_file.dart';
 import 'package:path/path.dart' as p;
 import 'package:intl/intl.dart';
-import 'package:filemanager/search.dart';
 
 class FileManager extends StatefulWidget {
   @override
@@ -118,10 +117,10 @@ class _FileManagerState extends State<FileManager> {
               icon: Icon(Icons.search, color: Colors.white),
               tooltip: 'Search',
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Search()),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => Search()),
+                // );
               },
             ),
 
